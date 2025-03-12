@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SREC Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sri Ramakrishna Engineering</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#admission">Admission</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <img src="college1.jpg" alt="College Campus">
+        <p>Our college provides world-class education with excellent faculty.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <table>
+            <tr>
+                <th>Course Name</th>
+                <th>Duration</th>
+                <th>Fee</th>
+            </tr>
+            <tr>
+                <td>Computer Science</td>
+                <td>4 Years</td>
+                <td>1.7 lakh to ₹3 lakh</td>
+            </tr>
+            <tr>
+                <td>Machanical Engineering</td>
+                <td>4 Years</td>
+                <td>3.00 lakh</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="admission">
+        <h2>Admission Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course">
+                <option value="cs">Computer Science</option>
+                <option value="bm">Business Management</option>
+            </select>
+
+            <input type="submit" value="Apply Now">
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: admin@sriramakrishna.ac.in</p>
+        <p>Phone: 075300 89996</p>
+        <audio controls>
+            <source src="zen-garden-310599.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sri Ramakrisha Engineering College. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
